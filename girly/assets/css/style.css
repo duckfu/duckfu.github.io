@@ -386,7 +386,7 @@ h2 {
   width: 100%; }
 
 .fh5co-recent-work {
-  background: #e90e65;
+  background: #000000;
   padding: 100px 0; }
   @media (max-width: 767px) {
     .fh5co-recent-work {
@@ -467,8 +467,7 @@ h2 {
       margin-top: 100px; } }
 
 .fh5co-portfolio {
-  background-color: #f2d5d7;
-  background-image: url(../img/camera-bg.jpg);
+  background-color: #91d49c;
   background-position: right bottom;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -488,7 +487,7 @@ h2 {
     padding: 7px; }
   @media (max-width: 1199px) {
     .fh5co-portfolio .bx-1, .fh5co-portfolio .bx-4 {
-      width: 32.5%; }
+      width: 80%; }
     .fh5co-portfolio .bx-2 {
       width: 41%; }
     .fh5co-portfolio .bx-3 {
@@ -519,7 +518,7 @@ h2 {
         float: left !important; } }
 
 .activity {
-  background: #f3e7e8;
+  background:  #8BC34A;
   padding-bottom: 50px; }
   .activity .recent {
     margin-top: 0; }
@@ -569,7 +568,7 @@ h2 {
 .fh5co-about-me {
   padding: 0; }
   .fh5co-about-me .card-img-overlay {
-    background-color: rgba(233, 14, 101, 0.902); }
+    background-color: rgba(2, 2, 2, 0.902) }
   .fh5co-about-me h2 {
     text-align: center;
     color: #fff;
@@ -803,7 +802,7 @@ footer {
 
 .blog-content-inner {
   background-color: #f2d5d7;
-  background-color: #e90e65;
+  background-color: #131313;
   padding: 70px;
   border-radius: 15px; }
   .blog-content-inner .card-title {
