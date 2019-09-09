@@ -721,11 +721,11 @@ footer {
     width: 100%; }
   footer .contact-form {
     border-radius: 25px;
-    padding: 35px;
+    padding: 77px;
     background-color: #fff;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
-    max-width: 380px;
+    max-width: 230px;
     margin: 117px auto; }
     footer .contact-form h3 {
       color: #e90e65;
