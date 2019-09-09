@@ -652,7 +652,7 @@ h2 {
 
 .fh5co-insta-feed {
   padding: 100px 0;
-  background: #f7f0f1; }
+  background: #91d49c }
   .fh5co-insta-feed .card {
     box-shadow: none; }
     .fh5co-insta-feed .card .card-img-overlay {
@@ -715,7 +715,7 @@ h2 {
       background: #fff; }
 
 footer {
-  background: #e90e65; }
+  background:#000; }
   footer iframe {
     height: 100%;
     width: 100%; }
@@ -723,10 +723,11 @@ footer {
     border-radius: 25px;
     padding: 77px;
     background-color: #fff;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);  
     width: 100%;
     max-width: 230px;
-    margin: 117px auto; }
+    margin: 117px auto;
+    background: url(../img/donald1.png) }
     footer .contact-form h3 {
       color: #e90e65;
       font-size: 20px;
@@ -746,7 +747,7 @@ footer {
       resize: none;
       padding-top: 20px !important; }
     footer .contact-form button {
-      background: #e90e65;
+      background: #3b66e0;
       width: 140px;
       padding: 13px 0;
       font-size: 15px;
