@@ -267,7 +267,7 @@ h2 {
 }
 
 .contact-pop .content hr {
-    background-color: #e90e65;
+    background-color: #53babf;
     width: 50px;
     height: 5px;
     border: none;
@@ -275,7 +275,7 @@ h2 {
 }
 
 .contact-pop .content a {
-    background-color: #e90e65;
+    background-color: #245cd8;
     width: 158px;
     border-radius: 40px;
     color: #fefefe;
@@ -543,7 +543,7 @@ h2 {
 }
 
 .fh5co-recent-work {
-    background: #e90e65;
+    background: #d9f0f9;
     padding: 100px 0;
 }
 
@@ -673,9 +673,9 @@ h2 {
 
 .fh5co-portfolio {
     background-color: #0000;
-    background-image: url(../img/land/au.jpg);
-    background-position: right bottom;
-    background-repeat: no-repeat;
+    background-image: url(../img/stuff/guitar.jpg);
+    background-position: initial;
+    background-repeat: round;
     padding: 100px 0;
     margin-top: 0;
 }
@@ -759,7 +759,7 @@ h2 {
 }
 
 .activity {
-    background: #f3e7e8;
+    background: #000000;
     padding-bottom: 50px;
 }
 
