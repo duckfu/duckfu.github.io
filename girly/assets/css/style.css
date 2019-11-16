@@ -1131,12 +1131,12 @@ footer .copy a {
 }
 
 footer .copy a:hover {
-    color: #e90e65;
+    color: #081c8d;
 }
 
 footer.container-fluid .card-img {
     margin: 10px auto;
-    width: 200px;
+    width: 150px;
     height: 200px;
     text-align: center;
     display: block;
