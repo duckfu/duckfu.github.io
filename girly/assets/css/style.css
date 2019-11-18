@@ -1135,11 +1135,11 @@ footer .copy a:hover {
 }
 
 footer.container-fluid .card-img {
-    margin: -7px auto;
-    width: 100px;
-    height: 150px;
+    margin: -32px auto;
+    width: 30px;
+    height: 45px;
     text-align: center;
-    display: block;
+    display: inline;
 }
 
 @media (max-width: 1199px) {
