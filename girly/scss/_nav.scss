@@ -4,8 +4,8 @@
 // `<nav>`s or `<ul>`s.
 
 .nav {
-  display: flex;
-  flex-wrap: wrap;
+  display: -webkit-box;
+  flex-wrap: initial;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
