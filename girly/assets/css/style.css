@@ -44,7 +44,7 @@ h6 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
@@ -1227,12 +1227,12 @@ footer.container-fluid .card-img {
 
 .single-blog {
     display: flex;
-    align-items: center;
-    margin-bottom: 50px;
+    align-items: end;
+    margin-bottom: 12px;
 }
 
 .single-blog:last-child {
-    margin-bottom: 0;
+    margin-bottom: 54px;
 }
 
 @media (max-width: 1199px) {
