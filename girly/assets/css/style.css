@@ -1168,8 +1168,8 @@ footer.container-fluid .card-img {
 /* Blog page style */
 
 .fh5co-blog-content {
-    background-image: url(../img/land/au4.jpg);
-    background-position: right bottom;
+    background-image: url(../img/travel/travel2.jpg);
+    background-position: round;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1189,9 +1189,9 @@ footer.container-fluid .card-img {
 
 .blog-content-inner {
     background-color: #f2d5d7;
-    background-color: #e90e65;
-    padding: 70px;
-    border-radius: 15px;
+    background-color: #474d50;
+    padding: 1px;
+    border-radius: 103px;
 }
 
 .blog-content-inner .card-title {
