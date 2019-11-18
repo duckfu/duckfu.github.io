@@ -1144,7 +1144,7 @@ footer.container-fluid .card-img {
 
 @media (max-width: 1199px) {
     footer .contact-form {
-        margin: 50px auto;
+        margin: auto;
     }
 }
 
