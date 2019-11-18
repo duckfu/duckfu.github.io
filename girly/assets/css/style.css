@@ -1139,7 +1139,7 @@ footer.container-fluid .card-img {
     width: 55px;
     height: 70px;
     text-align: center;
-    display: inline;
+    display: initial;
 }
 
 @media (max-width: 1199px) {
