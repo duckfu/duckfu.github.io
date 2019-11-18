@@ -590,7 +590,7 @@ h2 {
 .recent .owl-carousel .owl-nav .owl-next span {
     position: relative;
     display: block;
-    top: -2px;
+    top: -14px;
 }
 
 .recent .owl-carousel .owl-nav button {
