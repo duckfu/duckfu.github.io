@@ -560,7 +560,9 @@ h2 {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-.nav {flex-wrap: unset;}
+.nav {
+    flex-wrap: flex;
+    }
 .recent .owl-carousel .owl-nav {
     display: block;
     position: absolute;
