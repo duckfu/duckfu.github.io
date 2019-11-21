@@ -561,7 +561,8 @@ h2 {
     padding-bottom: 50px;
 }
 .nav {
-    flex-wrap: flex;
+    display: -webkit-box;
+    margin-bottom: -100px;
     }
 .recent .owl-carousel .owl-nav {
     display: block;
