@@ -44,7 +44,7 @@ h6 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
@@ -553,14 +553,14 @@ h2 {
 }
 
 .recent h2 {
-    color: #fff;
+    color: #000000;
 }
 
 .recent .owl-carousel .owl-stage-outer {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-
+.nav {flex-wrap: unset;}
 .recent .owl-carousel .owl-nav {
     display: block;
     position: absolute;
