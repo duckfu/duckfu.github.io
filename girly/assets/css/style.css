@@ -885,9 +885,9 @@ h2 {
 }
 
 .fh5co-about-me .carousel-indicators li img {
-    width: 100%;
+    width: 75%;
     position: relative;
-    left: -5px;
+    left: 4px;
 }
 
 .fh5co-about-me .carousel-indicators li.active {
