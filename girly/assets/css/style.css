@@ -46,6 +46,7 @@ h6 {
 h2 {
     font-size: 35px;
     text-transform: uppercase;
+    color: floralwhite;
 }
 
 @media (max-width: 600px) {
@@ -561,7 +562,7 @@ h2 {
     padding-bottom: 50px;
 }
 .nav {
-    display: -webkit-box;
+    display: contents;
     }
 .recent .owl-carousel .owl-nav {
     display: block;
