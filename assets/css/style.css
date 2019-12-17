@@ -1262,3 +1262,10 @@ footer.container-fluid .card-img {
         border-bottom: none;
     }
 }
+.btn{
+    font-size :1.5rem;
+    font-family: cursive;
+}
+a{
+    color :#000;
+}
