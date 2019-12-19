@@ -33,6 +33,7 @@ body {
     font-size: 20px;
     font-family: "cursive";
     background-color: #000;
+    line-height 2;
 }
 
 h1,
@@ -767,7 +768,9 @@ h2 {
 }
 
 .activity h2 {
-    color: #584f53;
+    color: #002577;
+    font-size:35px;
+    font-family: fantasy;
 }
 
 .activity .owl-carousel .owl-nav .owl-prev,
@@ -1034,7 +1037,9 @@ h2 {
 }
 
 .social-links {
-    margin-top: 20px;
+    margin-top: auto;
+    display: inline-flex;
+    margin-left: 25%;
 }
 
 .social-links ul li {
@@ -1071,8 +1076,8 @@ footer .contact-form {
     background-color: #0000;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
-    max-width: 170px;
-    margin: 117px auto;
+    max-width: 1000px;
+    margin: 0px auto;
 }
 
 footer .contact-form h3 {
@@ -1268,4 +1273,11 @@ footer.container-fluid .card-img {
 }
 a{
     color :#000;
+    font-size:inherit;
+    padding: 0px;
 }
+.w-100{
+    transform: rotate(270deg);
+    margin-bottom:inherit;
+}
+.element
