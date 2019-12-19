@@ -1271,11 +1271,13 @@ footer.container-fluid .card-img {
     font-size :initial;
     font-family: cursive;
 }
+
 a{
     color :#000;
     font-size:inherit;
     padding: 0px;
 }
-.w-100{
+
+w-100{
     margin-bottom:inherit;
 }
