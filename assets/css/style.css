@@ -1278,10 +1278,14 @@ a{
     padding: 0px;
 }
 
-w-100{
+.w-100{
     margin-bottom:inherit;
+    transform:rotate(270deg);
 }
 
+.w-200{
+    transform:rotate(270deg)
+}
 
 .media-grid .media-list-item .thumbnail.hover-zoomin img
 {
