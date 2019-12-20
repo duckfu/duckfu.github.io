@@ -1270,6 +1270,8 @@ footer.container-fluid .card-img {
 .btn{
     font-size :initial;
     font-family: cursive;
+    background-clip:content-box;
+
 }
 
 a{
@@ -1290,6 +1292,10 @@ a{
 {
     transform:translateX(-10px);
 }
-.btn-manage{
-    display:flew;
+.btn-manage
+{
+    display:flex;
+    MARGIN-LEFT:3PX;
+    padding: 3PX;
 }
+
