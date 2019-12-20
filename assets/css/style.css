@@ -1281,3 +1281,9 @@ a{
 w-100{
     margin-bottom:inherit;
 }
+
+
+.media-grid .media-list-item .thumbnail.hover-zoomin img
+{
+    transform:translateX(-10px);
+}
