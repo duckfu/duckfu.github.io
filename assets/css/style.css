@@ -49,6 +49,7 @@ h2 {
     font-size: 35px;
     text-transform: uppercase;
     color: floralwhite;
+    margin-top:30px;
 }
 
 @media (max-width: 600px) {
@@ -1204,7 +1205,8 @@ footer.container-fluid .card-img {
 }
 
 .blog-content-inner .card-title {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    margin-top:30px;
     font-size: 45px;
     text-align: center;
 }
