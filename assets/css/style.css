@@ -1285,7 +1285,10 @@ a{
 }
 
 .w-200{
-    transform:rotate(270deg)
+    transform:rotate(270deg);
+    margin-top : 70px;
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 .media-grid .media-list-item .thumbnail.hover-zoomin img
