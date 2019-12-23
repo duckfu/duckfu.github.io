@@ -1273,8 +1273,7 @@ footer.container-fluid .card-img {
     font-size :initial;
     font-family: cursive;
     background-clip:content-box;
-    margin 0 auto;
-
+    margin:auto 0;
 }
 
 a{
