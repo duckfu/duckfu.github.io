@@ -1292,12 +1292,14 @@ a{
 }
 .btn-manage
 {
-    display:flex;
+    display:block;
     MARGIN-LEFT:3PX;
     padding: 3PX;
 }
 
-
+.btn-group, .btn-group-vertical {
+    display: inline-block;
+}
 
 
 
