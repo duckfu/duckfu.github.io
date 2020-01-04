@@ -49,7 +49,7 @@ h2 {
     font-size: 35px;
     text-transform: uppercase;
     color: floralwhite;
-    margin-top:0;
+    margin-top:30px;
 }
 
 @media (max-width: 600px) {
@@ -244,7 +244,7 @@ h2 {
 .contact-pop .content {
     padding: 45px 20px 20px 40px;
     height: 100%;
-    background: #EECB27;
+    background: #2bceff0a;
     border-radius :0 15px 15px 0;
 }
 
@@ -256,7 +256,7 @@ h2 {
 }
 
 .contact-pop .content h4 {
-    color: #E13239;
+    color: #6c99ff;
     font-size: 18px;
     font-family: "PT-Sans-Regular";
 }
@@ -266,7 +266,7 @@ h2 {
 }
 
 .contact-pop .content hr {
-    background-color: #E13239;
+    background-color: #53babf;
     width: 50px;
     height: 5px;
     border: none;
@@ -542,7 +542,7 @@ h2 {
 }
 
 .fh5co-recent-work {
-    background: #BEDAE3;
+    background: #000000;
     padding: 101px 0;
 }
 
@@ -673,7 +673,7 @@ h2 {
 }
 
 .fh5co-portfolio {
-    background-color: #3d82AB;
+    background-color: #000000;
     background-image: url(../img/stuff/guitar.jpg);
     background-position: initial;
     background-repeat: round;
@@ -760,7 +760,7 @@ h2 {
 }
 
 .activity {
-    background: #fffc98;
+    background: #000000;
     padding-bottom: 50px;
 }
 
@@ -769,7 +769,7 @@ h2 {
 }
 
 .activity h2 {
-    color: #fdf850;
+    color: #002577;
     font-size:35px;
     font-family: fantasy;
 }
@@ -967,7 +967,7 @@ h2 {
 
 .fh5co-insta-feed {
     padding: 42px 0;
-    background: #2F7A95;
+    background: #000000;
 }
 
 .fh5co-insta-feed .card {
@@ -1038,23 +1038,20 @@ h2 {
 }
 
 .social-links {
-    margin-top: auto;
-    display: inline-flex;
-    margin-left: 25%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .social-links ul li {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(((100% - 100px) / 5) - 4px);
 }
 
 .social-links ul li a {
-    border: 0px solid #a59299;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
     padding: 0;
-    padding-top: 1px;
 }
 
 .social-links ul li:hover a,
@@ -1072,9 +1069,9 @@ footer iframe {
 }
 
 footer .contact-form {
-    border-radius: 100px;
-    padding: 5px;
-    background-color: #000000;
+    border-radius: 25px;
+    padding: 12px;
+    background-color: #0000;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 1000px;
@@ -1126,7 +1123,7 @@ footer .contact-form button:visited {
 }
 
 footer .copy {
-    background: #000000;
+    background: #282526;
     text-align: center;
 }
 
@@ -1165,10 +1162,6 @@ footer.container-fluid .card-img {
 }
 
 @media (max-width: 767px) {
-    .row {
-        margin-left: 0;
-        margin-right: 0;
-    }
     .container-fluid {
         padding-left: 0;
         padding-right: 0;
@@ -1178,10 +1171,10 @@ footer.container-fluid .card-img {
 /* Blog page style */
 
 .fh5co-blog-content {
-    background-image: url(../img/旅遊精選/am3.jpg);
-    background-position: center;
-    background-repeat:  round;
-    background-size: contain;
+    background-image: url(../img/travel/travel2.jpg);
+    background-position: round;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blog-content-bckg {
@@ -1198,8 +1191,8 @@ footer.container-fluid .card-img {
 }
 
 .blog-content-inner {
-    
-    background-color: #316990;
+    background-color: #f2d5d7;
+    background-color: #474d50;
     padding: 1px;
     border-radius: 103px;
 }
@@ -1302,4 +1295,13 @@ a{
     display:flex;
     MARGIN-LEFT:3PX;
     padding: 3PX;
+}
+
+
+
+
+
+
+.activity .recent .feed-caro {
+    height: 100%;
 }
