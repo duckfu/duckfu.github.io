@@ -1171,10 +1171,10 @@ footer.container-fluid .card-img {
 /* Blog page style */
 
 .fh5co-blog-content {
-    background-image: url(../img/travel/travel2.jpg);
-    background-position: round;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/旅遊精選/樹林廢墟.jpg);
+    background-position: center;
+    background-repeat: round;
+    background-size: contain;
 }
 
 .blog-content-bckg {
