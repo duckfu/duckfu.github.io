@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>duckfu&oden 鴨子富與黑輪 </title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md  fixed-top maine-menu">
+    <div class="container">
+      <button class="navbar-toggler ml-auto" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"> <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active"> <a class="nav-link" href="duckfu.html">首頁</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="duckfu.html#about" tabindex="-1" aria-disabled="true">關於</a></li>
+          <li class="nav-item"> <a class="nav-link" href="duckfu.html#activity" tabindex="-1" aria-disabled="true">拍攝主題</a></li>
+          <li class="nav-item"> <a class="nav-link" href="duckfu.html#portfolio" tabindex="-1" aria-disabled="true">影片區</a></li>
+          <li class="nav-item"> <a class="nav-link" href="duckfu.html#testimonial" tabindex="-1" aria-disabled="true">推薦序</a></li>
+          <li class="nav-item"> <a class="nav-link" href="https://duckfu.github.io/blog.html" tabindex="-1" aria-disabled="true">部落格</a></li>
+          <li class="nav-item"> <a class="nav-link" href="duckfu.html#contact" tabindex="-1" aria-disabled="true">聯絡我</a></li>
+        </ul>
+      </div>
+    </div>
+  <DIV><img class="card-img ALBUM-1" src="assets/img/人像精選/duck.jpg" alt=""></DIV>
+
+</footer>
+  
+  <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+  <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script> 
+  <script src="assets/js/popper.min.js" ></script> 
+  <script src="assets/js/bootstrap.min.js"></script> 
+  <script src="assets/js/owl.carousel.min.js"></script> 
+  <script src="assets/js/main.js"></script>
+  <!-- Youtube API Start-->
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script type="text/javascript">
+    var player;
+    var lastButton = "";
+    const youtube = "youTubeIframe";
+    const titleInsert = ".js-title-insert";
+    const btnPlay = ".js-play";
+    const btnPause = ".js-pause";
+    const modalId = "#modalVideo";
+    const videoQuality = "hd720";
+
+    function onYouTubePlayerAPIReady() {
+      player = new YT.Player(youtube, {
+        autoplay: 1,
+        controls: 1,
+        iv_load_policy: 3,
+        rel: 0,
+        events: {
+          onReady: onPlayerReady,
+          onStateChange: onStateChange
+        }
+      });
+    }
+
+    function onPlayerReady(event) {
+      "use strict";
+      $(btnPlay).on("click", function () {
+        var videoId = $(this).attr("data-src");
+
+        if (lastButton == videoId) {
+          $(titleInsert).text($(this).attr("data-title"));
+          player.playVideo(videoId, 0, videoQuality);
+        } else {
+          $(titleInsert).text($(this).attr("data-title"));
+          player.loadVideoById(videoId, 0, videoQuality);
+          lastButton = videoId;
+        }
+        player.unMute();
+      });
+
+      $(btnPause).on("click", function () {
+        player.pauseVideo();
+      });
+
+      $(modalId).on("click", function () {
+        player.pauseVideo();
+      });
+    }
+    function onStateChange(event) {
+      if (event.data === 0) {
+        player.playVideo();
+      }
+    }
+
+    /*company tab*/
+    var speed = 20;
+    var demo = document.getElementById("demo");
+    var demo2 = document.getElementById("demo2");
+    var demo1 = document.getElementById("demo1");
+    demo2.innerHTML = demo1.innerHTML;
+    function Marquee() {
+      if (demo2.offsetWidth - demo.scrollLeft <= 0)
+        demo.scrollLeft -= demo1.offsetWidth
+      else {
+        demo.scrollLeft++
+      }
+    };
+    var MyMar = setInterval(Marquee, speed);
+    demo.onmouseover = function () { clearInterval(MyMar) };
+    demo.onmouseout = function () { MyMar = setInterval(Marquee, speed) };
+
+  </script>
+  <!-- Youtube API End-->
+</body>
+</html>
