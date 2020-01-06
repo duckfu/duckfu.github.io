@@ -49,7 +49,7 @@ h2 {
     font-size: 37px;
     text-transform: uppercase;
     color: floralwhite;
-    margin-top:0px;
+    margin-top:53px;
     font-weight:900;
 }
 
@@ -1311,4 +1311,8 @@ a{
 
 .nav-link{
     display:inline-flex;
+}
+
+.card-img{
+    margin-top:60px;
 }
