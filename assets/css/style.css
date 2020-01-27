@@ -1316,4 +1316,13 @@ a{
 
 .w-300{
     margin-top:60px;
+    width: 100%;
+}
+.w-400{
+    width: 30%;
+    height: 30%;
+}
+.w-500{
+    width: 50%;
+    height: 30%;
 }
