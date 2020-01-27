@@ -1282,9 +1282,10 @@ a{
 
 .w-200{
     transform:rotate(270deg);
-    margin-top : 70px;
+    margin-top : 20px;
     border-radius: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    width:300px;
 }
 
 .media-grid .media-list-item .thumbnail.hover-zoomin img
