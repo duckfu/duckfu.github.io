@@ -1272,8 +1272,11 @@ footer.container-fluid .card-img {
 
 a{
     color :#ff8302;
-    font-size:initial;
+    font-size:xx-small;
     padding: 0px;
+    font-family: fantasy;
+    font:message-box;
+    display: inline-flex;
 }
 
 .w-100{
