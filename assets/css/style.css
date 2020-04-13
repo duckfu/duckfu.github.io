@@ -1178,9 +1178,9 @@ footer.container-fluid .card-img {
 /* Blog page style */
 
 .fh5co-blog-content {
-    background-image: url(../img/background/star.jpg);
+    background-image: url(../img/background/star1.jpg);
     background-position: unset;
-    background-repeat: round;
+    background-repeat: initial;
     background-size: contain;
 }
 
