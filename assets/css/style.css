@@ -252,19 +252,20 @@ h2 {
 
 .contact-pop .content h3 {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .contact-pop .content h4 {
     color: #6c99ff;
-    font-size: 18px;
+    font-size: 28px;
     font-family: "PT-Sans-Regular";
 }
 
 .contact-pop .content p {
     color: #ffffff;
+    font-family: fantasy;
 }
 
 .contact-pop .content hr {
@@ -544,7 +545,7 @@ h2 {
 }
 
 .fh5co-recent-work {
-    background: #000000;
+    background: #a1a3d8;
     padding: 101px 0;
 }
 
@@ -676,7 +677,7 @@ h2 {
 
 .fh5co-portfolio {
     background-color: #000000;
-    background-image: url(../img/stuff/guitar.jpg);
+    background-image: url(../img/background/photo.jpg);
     background-position: initial;
     background-repeat: round;
     padding: 100px 0;
@@ -684,8 +685,10 @@ h2 {
 }
 
 .fh5co-portfolio h2 {
-    color: #584f53;
+    color: #FFC107;
     margin-bottom: 20px;
+    font-size: 50px;
+    font-family: cursive;
 }
 
 .fh5co-portfolio .card {
@@ -970,6 +973,8 @@ h2 {
 .fh5co-insta-feed {
     padding: 42px 0;
     background: #000000;
+    background-image: url(../img/background/life3.jpg);
+    background-size: cover;
 }
 
 .fh5co-insta-feed .card {
